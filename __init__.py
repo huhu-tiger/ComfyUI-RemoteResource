@@ -7,9 +7,9 @@ NODE_CLASS_MAPPINGS = {
 
 # 节点的显示名字
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "PromptSelector": "LoadImageFromRemote"
+    "LoadImageFromRemote": "LoadImageFromRemote",
 }
 
-# WEB_DIRECTORY = "./js"
+WEB_DIRECTORY = "./web"
 
 __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
